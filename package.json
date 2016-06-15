@@ -8,13 +8,18 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "mocha-clean": "^1.0.0",
-    "should": "^8.3.2"
   },
   "scripts": {
-    "test": "mocha ./test/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Landgraf Paul",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeart/GeoCircleIntersect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freeart/GeoCircleIntersect/issues"
+  },
+  "homepage": "https://github.com/freeart/GeoCircleIntersect"
 }
