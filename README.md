@@ -28,6 +28,9 @@ result == {
     }
 ```
 
-"0,1,2,3" is a unique group name of intersect of 2 circles (0 and 1) - simple line
-"0,1,2" is a unique group name of intersect of 3 circles (0, 1 and 2) who has 3 common points - big poligon
-"0,1,3" is a unique group name of intersect of 3 circles (0, 1 and 3) who has 3 common points - small poligon
+**"0,1,2,3"** is a unique group name of intersect of 2 circles (0 and 1) - simple line
+
+**"0,1,2"** is a unique group name of intersect of 3 circles (0, 1 and 2) who has 3 common points - big poligon
+
+**"0,1,3"** is a unique group name of intersect of 3 circles (0, 1 and 3) who has 3 common points - small poligon
+
