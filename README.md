@@ -1,5 +1,8 @@
 # GeoCircleIntersect
 
+Code example
+
+```javascript
 var coors = [
     {lat: 41.3835, lng: 2.1704006, r: 30},
     {lat: 41.383183, lng: 2.1702075, r: 30},
@@ -23,6 +26,7 @@ result == {
             "lng": 2.1700550964769985
         }, {"lat": 41.383447264800246, "lng": 2.1701332228720718}]
     }
+```
 
 "0,1,2,3" is a unique group name of intersect of 2 circles (0 and 1) - simple line
 "0,1,2" is a unique group name of intersect of 3 circles (0, 1 and 2) who has 3 common points - big poligon
