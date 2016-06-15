@@ -1,5 +1,5 @@
 {
-  "name": "GeoCircleIntersect",
+  "name": "geo-circle-intersect",
   "version": "1.0.0",
   "description": "group geo circles by intersecting service",
   "main": "index.js",
@@ -10,8 +10,7 @@
   "devDependencies": {
     "mocha": "^2.4.5",
     "mocha-clean": "^1.0.0",
-    "should": "^8.3.2",
-    "superagent": "^2.0.0-alpha.3"
+    "should": "^8.3.2"
   },
   "scripts": {
     "test": "mocha ./test/"
