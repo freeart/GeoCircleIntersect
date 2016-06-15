@@ -1,0 +1,21 @@
+{
+  "name": "GeoCircleIntersect",
+  "version": "1.0.0",
+  "description": "group geo circles by intersecting service",
+  "main": "index.js",
+  "dependencies": {
+    "geographiclib": "^1.46.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "mocha-clean": "^1.0.0",
+    "should": "^8.3.2",
+    "superagent": "^2.0.0-alpha.3"
+  },
+  "scripts": {
+    "test": "mocha ./test/"
+  },
+  "author": "Landgraf Paul",
+  "license": "ISC"
+}
