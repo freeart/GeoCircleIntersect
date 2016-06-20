@@ -182,10 +182,11 @@ function intersect(data) {
                 lat: circles[c1Index].lat,
                 lng: circles[c1Index].lng
             }, circles[c1Index].r, {lat: circles[c2Index].lat, lng: circles[c2Index].lng}, circles[c2Index].r);
+            if (!twoPoints) continue;
             if (twoPoints.length == 2) {
                 points[key].push(twoPoints[0]);
                 points[key].push(twoPoints[1]);
-            }else{
+            } else {
                 points[key].push(twoPoints[0]);
             }
         }
