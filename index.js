@@ -146,8 +146,8 @@ function intersect(data) {
     var groups = {};
 
     for (var i = 0, length = Object.keys(mapIntersects).length; i < length; i++) {
-        var child = mapIntersects[i];
-        var root = mapIntersects[i].concat(i);
+        var child = mapIntersects[i] || [];
+        var root = child.concat(i);
         for (var n = i; n < child.length; n++) {
             var subchildOfRoot = mapIntersects[child[n]].concat(child[n]);
             var minRequire = Math.min(root.length, subchildOfRoot.length);
