@@ -201,7 +201,6 @@ function intersect(data) {
         for (var i = 0; i < _points.length; i++) {
             var onBorder = false;
             for (var n = 0; n < _circles.length; n++) {
-                console.log(Math.abs(GeodesicInverse(_points[i], circles[_circles[n]]).dist - circles[_circles[n]].r))
                 if (Math.abs(GeodesicInverse(_points[i], circles[_circles[n]]).dist - circles[_circles[n]].r) < 1e-8) {
                     onBorder = true;
                 }
