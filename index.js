@@ -199,13 +199,13 @@ function intersect(data) {
         var _points = points[groupName];
 
         for (var i = 0; i < _points.length; i++) {
-            var inside = true;
+            var onBorder = false;
             for (var n = 0; n < _circles.length; n++) {
-                if (Math.round(GeodesicInverse(_points[i], circles[_circles[n]]).dist) > Math.round(circles[_circles[n]].r)) {
-                    inside = false;
+                if (Math.abs(GeodesicInverse(_points[i], circles[_circles[n]]).dist - circles[_circles[n]].r) < 2.220446049250313e-16) {
+                    onBorder = true;
                 }
             }
-            if (inside) {
+            if (!onBorder) {
                 finalPoints[groupName] = finalPoints[groupName] || [];
                 finalPoints[groupName].push(_points[i]);
             }
